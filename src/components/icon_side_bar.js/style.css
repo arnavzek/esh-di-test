@@ -1,0 +1,21 @@
+.icon-side-bar{
+    border-right: rgb(186, 186, 186) solid 1px;
+    height: 100%;
+    padding: 1rem .5rem 0;
+}
+.icon-side-bar-list-item{
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+   margin-bottom: 1rem;
+   cursor: pointer;   
+}
+
+.list-item-dot{
+    height: 17px;
+    width: 17px;
+    background-color: red;
+    border-radius: 50%;
+}

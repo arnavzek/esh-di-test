@@ -1,0 +1,60 @@
+.preview-field-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.preview-field{
+    border: 1px solid rgb(198, 198, 198);
+    width: 100%;
+    height: 70%;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+.stripe-image{
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s,
+    position 2s, left 2s, right 2s, scale 2s, top 2s;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.run-sprite{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: rgb(0, 139, 214) 2px solid;
+    padding: .2rem .5rem;
+    color: rgb(0, 139, 214);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.add-sprite{
+    position: absolute;
+    top: 20px;
+    right: 75px;
+    border: rgb(0, 139, 214) 2px solid;
+    padding: .2rem .5rem;
+    color: rgb(0, 139, 214);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.cloud-say,.cloud-think{
+    border: 1px black solid;
+    padding: .5rem;
+    position: absolute;
+    font-size: 12px;
+    background-color: wheat;
+    color: black;
+    border-radius: 2pc;
+}
+.cloud-say{
+
+    bottom: 0px;
+}

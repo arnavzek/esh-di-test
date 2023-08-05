@@ -1,0 +1,32 @@
+.side-bar-list{
+    height: 100%;
+    padding: 1rem .5rem 0;
+    /* border: 2px solid black; */
+}
+
+.side-bar-heading{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+.list-content{
+    padding: .2rem .6rem;
+    border-radius: 2px;
+    font-size: 12px;
+    margin-bottom: .5rem;
+    color: white;
+    width: auto;
+}
+.list-content-color-limegreen{
+    background-color: limegreen;
+}
+.list-content-color-deepskyblue{
+    background-color: deepskyblue;
+}
+.list-content-color-gold{
+    background-color: gold;
+}
+.list-content-color-red{
+    background-color: red;
+}
