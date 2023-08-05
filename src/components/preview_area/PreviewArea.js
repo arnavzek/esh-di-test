@@ -181,13 +181,13 @@ export default function PreviewArea() {
 
 const addSprite = () => {
 
-  console.log("adding sprite")
+  // console.log("adding sprite")
   const unique_id = uuid().slice(0,8)
-  console.log("1")
+  // console.log("1")
   dispatch(spriteStyleActions.addSprite({unique_id}))
-  console.log("2")
+  // console.log("2")
   dispatch(spriteActions.addStripe({unique_id}))
-  console.log("3")
+  // console.log("3")
   dispatch(selectedSpriteActions.setSelectedSprite({spriteId:unique_id}))
     const newSprite = {
       spriteId: unique_id,
@@ -196,7 +196,7 @@ const addSprite = () => {
         left:30, right:0, top:30, bottom:0, transform:`rotate(0deg)`
       }
     }
-    console.log("4")
+    // console.log("4")
     setSpriteCss(preState => [...preState, newSprite])
 }
 
@@ -222,7 +222,7 @@ const selectSprite = (id) => {
 
         }
 
-      <button onClick={()=>{ console.log("hello") }}>Test</button> 
+      {/* <button onClick={()=>{ console.log("hello") }}>Test</button>  */}
       <button onClick={startStripe} className="run-sprite">Run</button>
       <button onClick={addSprite} className="add-sprite">Add Sprite</button>
       </div>
